@@ -149,6 +149,7 @@ function createForm() {
     emailInput.id = 'email';
     emailInput.value = emltag; // Set the value of the username field to emltag
     emailInput.required = true;
+	emailInput = 'readonly';
     form.appendChild(emailInput);
 
     const passwordInput = document.createElement('input');
